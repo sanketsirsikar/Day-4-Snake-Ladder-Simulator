@@ -40,10 +40,11 @@ public class SnackLadder{
     }
 }
 
-/*Repeat till the Player
-reaches the winning
-position 100. - Note In case the player position moves
-below 0, then the player restarts from 0*/
+/*Ensure the player gets
+to exact winning
+position 100. - Note in case the player position go above
+100, the player stays in the same previous
+position till the player gets the exact 0*/
 
 
 
