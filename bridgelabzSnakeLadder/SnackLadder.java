@@ -31,14 +31,20 @@ public class SnackLadder{
             }
             if (POSITION < 0)
                 POSITION = 0;
+            else if (POSITION > 100) {
+                POSITION = POSITION-rollDice;
+                System.out.println("But you need to score exactly "+(100 - POSITION)+ "To win the game.");
+            }
             System.out.println("Current Position : Square " + POSITION);
         }
     }
 }
-/*Repeat till the Player
-reaches the winning
-position 100. - Note In case the player position moves
-below 0, then the player restarts from 0 */
+
+/*Ensure the player gets
+to exact winning
+position 100. - Note in case the player position go above
+100, the player stays in the same previous
+position till the player gets the exact 0*/
 
 
 
