@@ -8,8 +8,8 @@ public class SnackLadder {
         System.out.println("Initial position is Square Zero");
         System.out.println("position : Square "+POSITION);
 
-    }
 
+    }
 }
   /*  Snake and Ladder
   game played with
